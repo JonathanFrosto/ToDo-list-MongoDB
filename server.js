@@ -47,7 +47,9 @@ app.post('/delete', (req,res) => {
     else{
         items.splice(ind, 1);
         items.forEach(item => {
-            item.id = -1;
+            if(item.id > ind){
+                item.id -= 1;
+            }
         });
     }
     res.redirect('/');
