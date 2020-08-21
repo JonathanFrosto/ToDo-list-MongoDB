@@ -5,13 +5,16 @@
 ## 🧪 Instalação
 ```bash
 # Clone este repositório
-$ git clone https://github.com/JonathanFrosto/to-do-list
+$ git clone https://github.com/JonathanFrosto/ToDo-list-Mongodb
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd To-do-list
+$ cd ToDo-list-MongoDB
 
 # Instale as dependências
 $ npm install
+
+# Abra o terminal e coloque seu servidor local do mongodb para rodar
+$ mongod
 
 # Execute a aplicação.
 $ npm start
@@ -19,15 +22,17 @@ $ npm start
 # Acesse http://localhost:3000 no seu navagador.
 ```
 ## 🧐 Sobre
-Esse foi um projeto criado para praticar meus conhecimentos em NodeJS e EJS ^^,
+Esse foi um projeto criado para praticar meus conhecimentos em NodeJS, EJS e Mongoose ^^,
 <br>
-###  [👉 Clique aqui para acessar o projeto 👈](https://weather-cep-api.herokuapp.com/)
+
+## ⚗ Projeto sem mongodb
+###  [👉 Clique aqui para acessar o projeto 👈](https://salty-sierra-15542.herokuapp.com/)
 <br>
 
 ## 📃 Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com/).
 
 ## 💻 Tecnologias
 - HTML
@@ -36,6 +41,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - Express
 - Body-parser
 - EJS
+- Mongoose
 <br>
 
 ## 😀 Autor
